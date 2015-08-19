@@ -220,7 +220,7 @@ JNIEXPORT jint JNICALL Java_com_yaylas_sytech_facerecognizer_FaceRecognitionActi
     LOGD("Java_com_yaylas_sytech_facerecognizer_DetectionBasedTracker_faceRecognition enter");
     try
     {
-    	jclass clazz = jenv->FindClass("com/itu/yaylas/facerecognizer/FaceRecognitionActivity");
+    	jclass clazz = jenv->FindClass("com/yaylas/sytech/facerecognizer/FaceRecognitionActivity");
     	jmethodID getFaceFolder = jenv->GetStaticMethodID(clazz, "getFaceFolder","(I)Ljava/lang/String;");
     	jmethodID getPersonID = jenv->GetStaticMethodID(clazz, "getPersonID","(I)J");
 
